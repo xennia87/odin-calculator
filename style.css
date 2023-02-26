@@ -1,0 +1,54 @@
+* {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.calculator {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    height: 600px;
+    width: 400px;
+}
+
+.display {
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 20%;
+    display: flex;
+}
+
+#display-number {
+    background-color: white;
+    text-align: right;
+    font-size: 2.5em;
+    align-self: center;
+    flex: 1;
+    margin: 0px;
+    padding-right: 20px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    font-size: 150%;
+}
+
+.buttonpad {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.operator {
+    background-color: lightpink;
+}
