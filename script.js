@@ -26,3 +26,13 @@ function operate(operator, a, b) {
     }
 };
 
+const displayNumber = document.querySelector('.displayNumber');
+
+const buttons = document.querySelectorAll('button');
+buttons.forEach((button) => {
+    button.addEventListener('click', () => addNumber(button.textContent));
+});
+
+function addNumber(number) {
+    displayNumber.textContent += number
+}
