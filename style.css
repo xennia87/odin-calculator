@@ -13,14 +13,20 @@
 }
 
 .display {
+    padding: 5px;
     background-color: lightgray;
     border: 1px solid black;
     height: 20%;
     display: flex;
+    flex-direction: column;
+}
+
+.displayOperator {
+    flex: 0 0 20%;
+    background-color: white;
 }
 
 .displayNumber {
-    background-color: white;
     text-align: right;
     font-size: 2.5em;
     align-self: center;
@@ -33,6 +39,10 @@ button {
     height: 100%;
     width: 100%;
     font-size: 150%;
+}
+
+.equals, .clear {
+    background-color: lightblue;
 }
 
 .buttonpad {
